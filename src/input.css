@@ -1,11 +1,9 @@
 @import "tailwindcss";
 
-/* Default font for body */
 body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Optional utility classes for other fonts */
 .font-oswald {
   font-family: "Oswald", sans-serif;
 }
