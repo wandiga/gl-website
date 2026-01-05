@@ -1,52 +1,6 @@
-@import "tailwindcss";
-
-@import "tailwindcss";
-
-@theme {
-  /* Extra Small */
-  --text-xs: 0.75rem; /* 12px */
-  --text-xs--line-height: 1rem; /* 16px */
-
-  /* Small */
-  --text-sm: 0.875rem; /* 14px */
-  --text-sm--line-height: 1.25rem; /* 20px */
-
-  /* Base */
-  --text-base: 1rem; /* 16px */
-  --text-base--line-height: 1.5rem; /* 24px */
-
-  /* Large */
-  --text-lg: 1.125rem; /* 18px */
-  --text-lg--line-height: 1.75rem; /* 28px */
-
-  /* Extra Large */
-  --text-xl: 1.25rem; /* 20px */
-  --text-xl--line-height: 1.75rem; /* 28px */
-
-  /* 2X Large */
-  --text-2xl: 1.5rem; /* 24px */
-  --text-2xl--line-height: 2rem; /* 32px */
-
-  /* 3X Large */
-  --text-3xl: 2rem; /* 32px */
-  --text-3xl--line-height: 2.5rem; /* 40px */
-
-  /* 4X Large */
-  --text-4xl: 2.5rem; /* 40px */
-  --text-4xl--line-height: 3rem; /* 48px */
-
-  /* 5X Large */
-  --text-5xl: 3rem; /* 48px */
-  --text-5xl--line-height: 1; /* tight */
-
-  /* 6X Large */
-  --text-6xl: 4rem; /* 64px */
-  --text-6xl--line-height: 1; /* tight */
-
-  /* 7X Large */
-  --text-7xl: 4.5rem; /* 72px */
-  --text-7xl--line-height: 1; /* tight */
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   font-family: "Poppins", sans-serif;
